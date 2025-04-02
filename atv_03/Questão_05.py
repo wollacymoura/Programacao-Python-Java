@@ -35,7 +35,7 @@ def buscar_contato():
             return
     print("Contato não encontrado.")
 
-# mostra todos os contatos já registrados
+# mostra todos os contatos já registrados na lista
 def listar_contatos():
     contatos = carregar_contatos()
     print("\n=== Lista de Contatos ===")
