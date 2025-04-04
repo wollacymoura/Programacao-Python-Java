@@ -45,7 +45,7 @@ def listar_contatos():
     else:
         print("Nenhum contato encontrado.")
 
-# controle de ações do usuário
+# controle das ações do usuário
 def sistema_contatos():
     while True:
         print("\n=== Gerenciador de Contatos ===")

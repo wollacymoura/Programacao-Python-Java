@@ -2,7 +2,7 @@
 
 import json
 
-# carregar os dados dos usuário do arquivo .json
+# carrega os dados dos usuário do arquivo .json
 def carregar_usuarios():
     try:
         with open('usuarios.json', 'r') as arquivo:

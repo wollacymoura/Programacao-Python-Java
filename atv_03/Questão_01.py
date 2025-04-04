@@ -15,7 +15,7 @@ def salvar_tarefas(tarefas):
     with open('tarefas.json', 'w') as arquivo:
         json.dump(tarefas, arquivo, indent=4)
 
-# adicionar uma nova tarefa com descrição e prazo
+# adiciona uma nova tarefa com descrição e prazo
 def adicionar_tarefa():
     descricao = input("Digite a descrição da tarefa: ")
     prazo = input("Digite o prazo da tarefa (formato AAAA-MM-DD): ")

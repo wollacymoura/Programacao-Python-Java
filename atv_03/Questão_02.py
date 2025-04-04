@@ -25,7 +25,7 @@ def adicionar_produto():
     salvar_estoque(produtos)
     print("Produto adicionado com sucesso!")
 
-# mostra todos os produtos que estão arquivo .json e da um print no valor total do preço dos produtos dessa lista
+# mostra todos os produtos que estão no arquivo .json e da um print no valor total do preço dos produtos dessa lista
 def listar_produtos():
     produtos = carregar_estoque()
     valor_total = 0

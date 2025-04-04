@@ -22,7 +22,7 @@ def visualizar_assentos():
         estado = "Reservado" if reservado else "Disponível"
         print(f"{assento}: {estado}")
 
-# rezerva de assento
+# rezerva de assentos
 def reservar_assento():
     assento = input("Digite o número do assento para reservar (Ex: Assento 1): ")
     assentos = carregar_assentos()
